@@ -1,0 +1,66 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    /usr/bin/zathura-tabbed: 
+      relink: true
+      path: zathura-tabbed
+    ~/.config/kitty/kitty.conf: 
+      path: kitty.conf
+      create: true
+      relink: true
+    ~/.config/ranger/rc.conf:
+      path: ranger/rc.conf
+      create: true
+      relink: true
+    ~/.bash_it/themes/modern-conda/modern-conda.theme.bash:
+      create: true
+      relink: true
+      path: bash/modern-conda.theme.bash
+    ~/.bashrc:
+      relink: true
+      path: bash/.bashrc
+    ~/.XCompose:
+      relink: true
+      path: .XCompose
+    ~/.Xmodmap:
+      relink: true
+      path: .Xmodmap
+    ~/.config/i3/config:
+      path: i3/config
+      relink: true
+      create: true
+    ~/.SpaceaVim.d/init.toml:
+      path: spacevim/init.toml
+      relink: true
+      create: true
+    ~/.config/Code/User/keybindings.json:
+      path: code/keybindings
+      relink: true
+      create: true
+    ~/.config/rofi/config.rasi:
+      path: rofi/config.rasi
+      relink: true
+      create: true
+    ~/.local/bin/rofi-power-menu:
+      path: rofi/rofi-power-menu
+      relink: true
+      create: true
+    ~/.local/bin/rofi-cheatsheet:
+      path: rofi/rofi-cheatsheet
+      relink: true
+      create: true
+    ~/.config/rofi/cheatsheets:
+      path: rofi/cheatsheets/*
+      create: true
+      glob: true
+      relink: true
+    /usr/share/rofi/nord.rasi:
+      path: rofi/nord.rasi
+      create: true
+      relink: true
+

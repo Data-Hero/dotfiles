@@ -1,5 +1,5 @@
 # Small greek letters. <g>
-<Multi_key> <g> <a>                : "α"        U03B1                # GREEK SMALL LETTER ALPHA
+yy<Multi_key> <g> <a>                : "α"        U03B1                # GREEK SMALL LETTER ALPHA
 <Multi_key> <a> <g>                : "α"        U03B1                # GREEK SMALL LETTER ALPHA
 <Multi_key> <g> <b>                : "β"        U03B2                # GREEK SMALL LETTER BETA
 <Multi_key> <b> <g>                : "β"        U03B2                # GREEK SMALL LETTER BETA
@@ -102,6 +102,34 @@
 <Multi_key> <Y> <g>                : "Η"        U0397                # GREEK CAPITAL LETTER ΕΤΑ
 <Multi_key> <g> <Z>                : "Ζ"        U0396                # GREEK CAPITAL LETTER ZETA
 <Multi_key> <Z> <g>                : "Ζ"        U0396                # GREEK CAPITAL LETTER ZETA
+
+
+# Small russian letters. <r>
+<Multi_key> <r> <a>                : "а"        U0430                # Cyrillic Small Letter A
+<Multi_key> <a> <r>                : "а"        U0430                # Cyrillic Small Letter A
+<Multi_key> <r> <b>                : "б"        U0431                # Cyrillic Small Letter Be
+<Multi_key> <b> <r>                : "б"        U0431                # Cyrillic Small Letter Be
+<Multi_key> <r> <v>                : "в"        U0432                # Cyrillic Small Letter Ve
+<Multi_key> <v> <r>                : "в"        U0432                # Cyrillic Small Letter Ve
+<Multi_key> <r> <g>                : "г"        U0433                # Cyrillic Small Letter Ghe
+<Multi_key> <g> <r>                : "г"        U0433                # Cyrillic Small Letter Ghe
+<Multi_key> <r> <d>                : "д"        U0434                # Cyrillic Small Letter De
+<Multi_key> <d> <r>                : "д"        U0434                # Cyrillic Small Letter De
+<Multi_key> <r> <e>                : "е"        U0435                # Cyrillic Small Letter Ie
+<Multi_key> <e> <r>                : "е"        U0435                # Cyrillic Small Letter Ie
+<Multi_key> <r> <d>                : "ж"        U0436                # Cyrillic Small Letter Zhe
+<Multi_key> <d> <r>                : "ж"        U0436                # Cyrillic Small Letter Zhe
+<Multi_key> <r> <z>                : "з"        U0437                # Cyrillic Small Letter Ze
+<Multi_key> <z> <r>                : "з"        U0437                # Cyrillic Small Letter Ze
+<Multi_key> <r> <i>                : "и"        U0438                # Cyrillic Small Letter I
+<Multi_key> <d> <r>                : "и"        U0438                # Cyrillic Small Letter I
+
+
+
+
+
+# Capital russian letters. <r>
+
 
 # Logic Symbols. <l>
 <Multi_key> <l> <a>                : "∀"        U2200                # FORALL

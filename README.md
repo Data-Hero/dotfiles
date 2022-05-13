@@ -6,7 +6,7 @@
 Using git with ssh:
 
 ```
-git clone git@github.com:Data-Hero/dotfiles.git .dotfiles && cd .dotfiles && git submodule init && ./install
+git clone git@github.com:Data-Hero/dotfiles.git .dotfiles && cd .dotfiles && git submodule init && git submodule update && ./install
 ```
 
 ### Window Manager

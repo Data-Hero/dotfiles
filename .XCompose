@@ -1,5 +1,5 @@
 # Small greek letters. <g>
-yy<Multi_key> <g> <a>                : "α"        U03B1                # GREEK SMALL LETTER ALPHA
+<Multi_key> <g> <a>                : "α"        U03B1                # GREEK SMALL LETTER ALPHA
 <Multi_key> <a> <g>                : "α"        U03B1                # GREEK SMALL LETTER ALPHA
 <Multi_key> <g> <b>                : "β"        U03B2                # GREEK SMALL LETTER BETA
 <Multi_key> <b> <g>                : "β"        U03B2                # GREEK SMALL LETTER BETA

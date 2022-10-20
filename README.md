@@ -20,7 +20,7 @@ The polybar config is a forest theme from adi1090x's [collection](https://github
 including a configurable cheatsheet:
 ![Image of rofi-cheathseet](./images/rofi_cheatsheet.png)
 ### Terminal Emulator
-My solution is the gpu driven [kitty](https://github.com/kovidgoyal/kitty) with [konsole](https://github.com/KDE/konsole) as a backup in case my gpu is busy.
+My solution is the gpu driven [kitty](https://github.com/kovidgoyal/kitty) with [konsole](https://github.com/KDE/konsole) as a backup.
 
 ### Additional Tools
 - [feh](https://github.com/derf/feh): Sets wallpapers

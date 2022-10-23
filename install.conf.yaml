@@ -63,4 +63,9 @@
       path: rofi/nord.rasi
       create: true
       relink: true
-
+    ~/.config/polybar/:
+      path: polybar/**
+      create: true
+      relink: true
+      glob: true
+ 

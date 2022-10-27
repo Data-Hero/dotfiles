@@ -165,7 +165,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 # i3
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec "rofi -show p -modi p:rofi-power-menu -theme gruvbox-light -font 'OpenSans 14'"
+bindsym $mod+Shift+e exec "rofi -show p -modi p:rofi-power-menu -theme gruvbox-dark -font 'OpenSans 14'"
 # kde
 # bindsym $mod+Shift+e exec --no-startup-id qdbus-qt5 org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1 
 # bindsym $mod+Shift+e exec --no-startup-id qdbus-qt5 org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
@@ -210,10 +210,10 @@ bindsym $mod+o exec "setxkbmap -layout de"
 bar {
   # i3blocks bar
   #status_command /usr/bin/i3blocks -c /home/bijan/.config/i3/i3blocks.conf
-  status_command /usr/bin/i3blocks -c /home/bijan/.config/i3/i3blocks.conf
+  #status_command /usr/bin/i3blocks -c /home/bijan/.config/i3/i3blocks.conf
 
   # i3status bar
-  #status_command i3status
+  status_command i3status --config ~/.config/i3/i3status.conf
 
   position top
 

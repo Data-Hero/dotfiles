@@ -51,6 +51,10 @@ is_conda_env() {
 	fi
 }
 
-PS1="${dark_red}┌─${blue}[\W]${dark_red}$(is_conda_env)${light_gray}\$(__git_ps1 "[%s]")
-${dark_red}└─▪ ${reset_color}"
+prompt() {
+ 	PS1="${blue}┌─${dark_red}[\W]${blue}$(is_conda_env)${light_gray}$(__git_ps1 "[%s]")
+${blue}└─▪ ${reset_color}"
+}
+
+PROMPT_COMMAND=prompt
 

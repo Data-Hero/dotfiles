@@ -1,0 +1,99 @@
+{
+    "editor.inlineSuggest.enabled": true,
+    "workbench.colorTheme": "Gruvbox Dark (Soft)",
+    "terminal.external.linuxExec": "st",
+    "terminal.explorerKind": "external",
+    "python.condaPath": "/home/bijan/Programme/miniconda3/condabin/conda",
+    "python.formatting.autopep8Args": [
+        "--max-line-length 110"
+    ],
+    "python.formatting.blackArgs": [
+        "--max--line-length 110",
+        "--indent-size 2"
+    ],
+    "terminal.integrated.inheritEnv": false,
+    "python.languageServer": "Pylance",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnType": true
+    },
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "python.linting.flake8Args": [
+        "indent-string='  '"
+    ],
+    "python.formatting.provider": "black",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "vim.leader": "<Space>",
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-v>": false
+    },
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "commands": [
+                "vspacecode.space",
+                {
+                    "command": "whichkey.triggerKey",
+                    "args": "m"
+                }
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "vspacecode.space"
+            ]
+        },
+        {
+            "before": [
+                ","
+            ],
+            "commands": [
+                "vspacecode.space",
+                {
+                    "command": "whichkey.triggerKey",
+                    "args": "m"
+                }
+            ]
+        }
+    ],
+    "sync.gist": "4e6d649509650db69c327c240bf48062",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}

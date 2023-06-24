@@ -29,6 +29,8 @@ fi
 
 set editing-mode vi
 set keymap vi
+export EDITOR=vim
+export SYSTEMD_EDITOR=vi
 
 # tools like conda 
 # ...
@@ -57,4 +59,5 @@ ${blue}└─▪ ${reset_color}"
 }
 
 PROMPT_COMMAND=prompt
+export EDITOR=vim
 

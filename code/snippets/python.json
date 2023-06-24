@@ -1,0 +1,13 @@
+{
+	"Main": {
+		"prefix": "main",
+		"body": [
+			"def main() -> int:",
+			"\t$0",
+			"\treturn 0",
+			"if __name__ == '__main__':",
+			"\tsys.exit(main())",
+		],
+		"description": "Main function"
+	},
+}

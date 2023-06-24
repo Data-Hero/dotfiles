@@ -1,0 +1,9 @@
+{
+	"Include": {
+		"prefix": "incl",
+		"body": [
+			"#include <$1>",
+		]
+	}
+
+}

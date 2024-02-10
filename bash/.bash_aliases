@@ -6,8 +6,9 @@ alias gitpom='git push origin master'
 alias sr="systemctl reboot"
 alias sp="systemctl poweroff"
 
-alias ll="exa -TBL 1 -lamuh --git --octal-permissions --no-permissions"
-alias lln="exa -TBL 1 -lamuh --git --octal-permissions --no-permissions --sort modified"
+alias ll="ls -ahl --color=auto"
+alias lld="ls -ahl --color=auto -d */"
+alias lln="ls -halt --color=auto"
 
 alias df="df -Tha --total"
 alias du="du -ach | sort -h"
@@ -35,6 +36,9 @@ alias thun="snap run thunderbird"
 alias chro="snap run chromium"
 alias fire="snap run firefox"
 alias andr="snap run android-studio"
+
+alias psg="ps aux | grep "
+alias ki="kill -9 "
 
 cr() {
 	cargo run ${1-.}

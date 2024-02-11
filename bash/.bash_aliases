@@ -1,7 +1,7 @@
 alias gpu='watch -n 1 "nvidia-smi"'
 alias cpu='top -d 2'
 alias ..='cd ..'
-alias gitpom='git push origin master'
+alias gp='git push origin '
 
 alias sr="systemctl reboot"
 alias sp="systemctl poweroff"
@@ -15,7 +15,6 @@ alias du="du -ach | sort -h"
 alias free="free -mt"
 
 alias ps="ps auxf"
-alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
 
 alias mkdir="mkdir -pv"
 

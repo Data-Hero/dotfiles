@@ -17,8 +17,8 @@ The polybar config is a forest theme from adi1090x's [collection](https://github
 
 ### Rofi
 [Nord](https://github.com/undiabler/nord-rofi-theme/blob/master/nord.rasi) themed rofi with a [power menu](https://github.com/jluttine/rofi-power-menu) 
-including a configurable cheatsheet:
-![Image of rofi-cheathseet](./images/rofi_cheatsheet.png)
+including a configurable cheatsheet.
+
 ### Terminal Emulator
 My solution is the gpu driven [kitty](https://github.com/kovidgoyal/kitty) with [konsole](https://github.com/KDE/konsole) as a backup.
 
